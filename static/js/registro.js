@@ -14,13 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         };
 
-        if (password !== repassword) {
-            alert('Las contraseñas no coinciden.');
-            return;
-        };
-
         window.location.href = "/pages/inicio.html";
-        return;
     });
 });
 
