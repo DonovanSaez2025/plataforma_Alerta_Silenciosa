@@ -1,8 +1,8 @@
 function login() {
-    window.location.href = "sesion.html";
+    window.location.href = "/pages/sesion.html";
 }
 
 function signin() {
-    window.location.href = "registro.html";
+    window.location.href = "/pages/registro.html";
 }
 
