@@ -51,12 +51,12 @@ body {
     flex-direction: column;
 }
 
-.form-inicio {
+.form-div {
     margin-bottom: 20px;
     position: relative;
 }
 
-.form-inicio label {
+.form-div label {
     display: block;
     margin-bottom: 8px;
     color: #555;
@@ -64,12 +64,12 @@ body {
     font-weight: 500;
 }
 
-.form-inicio label i {
+.form-div label i {
     margin-right: 8px;
     color: #777;
 }
 
-.form-inicio input {
+.form-div input {
     width: 100%;
     padding: 12px 15px;
     border: 1px solid #ddd;
@@ -78,35 +78,29 @@ body {
     transition: all 0.3s;
 }
 
-.form-inicio input:focus {
+.form-div input:focus {
     border-color: #6D4C41;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
     outline: none;
 }
 
-.toggle-password {
-    position: absolute;
-    right: 15px;
-    top: 40px;
-    cursor: pointer;
-    color: #777;
-}
-
 .form-options {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    gap: 4px;
     margin-bottom: 20px;
     font-size: 13px;
 }
 
-.recuerdame {
+.terminos {
     display: flex;
     align-items: center;
     color: #555;
 }
 
-.recuerdame input {
+.terminos input {
     margin-right: 5px;
 }
 
