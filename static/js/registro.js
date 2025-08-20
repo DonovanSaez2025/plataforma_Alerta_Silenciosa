@@ -5,9 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
 
         const email = document.getElementById('email').value.trim();
-        const password = document.getElementById('password').value.trim();
-        const repassword = document.getElementById('repassword').value.trim();
-
 
         if (!email.endsWith('@liceovvh.cl') && !email.endsWith('@comeduc.cl')) {
             alert('Correo no válido. Solo se permiten correos institucionales.');
